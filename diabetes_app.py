@@ -4,7 +4,7 @@ import streamlit as st
 import numpy as np
 
 # Load model
-model_diabetes = pickle.load(open('model_diabetes.sav', 'rb'))
+model_diabetes = pickle.load(open('xgboost_model.pkl', 'rb'))
 
 # Web Title
 st.title('Diabetes Prediction')
